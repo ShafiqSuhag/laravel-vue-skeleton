@@ -17,7 +17,7 @@ window.Vue = require('vue');
 // import store from './store';
 import "./filters";
 import "./globalMethods";
-Vue.component('patient-dental-history', require('./components/patient-dental-history'));
+Vue.component(':component_name', require('./components/:component_name'));
 const app = new Vue({
     el: '#app',
     // store:store,
