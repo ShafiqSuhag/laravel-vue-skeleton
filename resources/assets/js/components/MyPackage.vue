@@ -303,7 +303,7 @@
 		},
 		data(){
             return{
-
+				moduleName : ':lc:package',
                 //boolean values | switches
 				askDelete : false,
 				isAdultTeethShow : true,

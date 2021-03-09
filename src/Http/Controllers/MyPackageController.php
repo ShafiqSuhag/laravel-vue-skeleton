@@ -6,10 +6,10 @@ use :uc:vendor\:uc:package\Http\Models\:uc:package;
 
 class :uc:packageController extends Controller
 {
-    protected $:lc:packageVar ;
-    public function __construct(:uc:package $:lc:package)
+    protected $:sc:packageVar ;
+    public function __construct(:uc:package $:sc:package)
     {
-        $this->:lc:packageVar = $:lc:package;
+        $this->:sc:packageVar = $:sc:package;
         
     }
     public function index(){

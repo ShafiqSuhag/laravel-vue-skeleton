@@ -1,6 +1,6 @@
 <?php
 
-// Available placeholders: :uc:vendor, :uc:package, :lc:vendor, :lc:package /
+// Available placeholders: :uc:vendor, :uc:package, :lc:vendor, :lc:package , :sc:package/
 return [
     'src/MyPackage.php' => 'src/:uc:package.php',
     'config/mypackage.php' => 'config/:lc:package.php',
